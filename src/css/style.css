@@ -1,0 +1,22 @@
+header{
+    margin: 65px;
+}
+
+nav {
+    background-color: #10B981;
+    width: 1440px;
+    height: 81px;
+}
+
+ul {
+    
+    text-align: center;
+    
+    
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+    text-align: center;
+}
