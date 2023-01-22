@@ -1,22 +1,122 @@
-header{
-    margin: 65px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
-nav {
-    background-color: #10B981;
-    width: 1440px;
-    height: 81px;
+.home {
+    width: 1511px;
+    height: 886px;
+    background-color: #FEBB41;
+    padding-left: 87px;
+    padding-right: 65px;
+    padding-top: 39px;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.logo_name {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+    color: black;
+    display: inline;
 }
 
 ul {
-    
-    text-align: center;
-    
-    
+    display: inline;
+    margin-left: 352px;
+
 }
 
 li {
     display: inline;
-    margin-right: 100px;
-    text-align: center;
+    font-size: 22px;
+    line-height: 21px;
+    color: black;
+    font-weight: 400;
+    margin-right: 56px;
+}
+
+input {
+    margin-left: 104px;
+}
+
+.basket {
+    width: 750px;
+    height: 712px;
+    position:absolute;
+    left: 750px;
+    top: 100px;
+}
+
+h1 {
+    color: #2f2f2f;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 49px;
+    display: inline-block;
+    width: 211px;
+    margin-left: 18px;
+
+}
+
+h2 {
+    color: #ff7e00;
+    font-weight: 700;
+    font-size: 125px;
+    line-height: 119px;
+    display: inline;
+    
+    
+}
+
+.wrapper {
+    display: block;
+    width: 568px;
+    margin-top: 24px;
+}
+
+.header_description {
+    color: #909090;
+    font-style: 22px;
+    line-height: 31px;
+    font-weight: 400;
+    display: inline-block;
+    width: 568px;
+}
+
+.btn_order {
+    background-color: #2f2f2f;
+    width: 188px;
+    height: 70px;
+    border-radius: 32px;
+    border: 1px solid #2f2f2f;
+    color: #f4ece1;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    cursor: pointer;
+    margin-top: 44px;
+}
+
+.btn_wvideo {
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    color: #2f2f2f;
+    background: none;
+    border: none;
+    margin-top: 44px;
+    margin-left: 96px;
+}
+.company_description{
+    display: inline-block;
+    width: 568px;
+    margin-top: 152px;
 }
